@@ -10,7 +10,9 @@ public:
         while(count[i]--){
             nums[k++]=i;
         }
-    }*/
+    }*By using extra space*/
+/*now using the binary search approach*/
+
     int st=0,mid=0,high=nums.size()-1;
     while(mid<=high){
     switch(nums[mid]){
